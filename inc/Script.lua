@@ -3128,7 +3128,7 @@ local function iBoss(msg,MsgText)
     
     if (MsgText[1] == 'تحديث السورس' or MsgText[1] == 'تحديث السورس ™') then
     if not msg.SudoBase then return "📪¦ هذا الامر يخص {المطور الاساسي} فقط  \n" end
-    local GetVerison = https.request('https://th3bs.github.io/GetVersion.txt') or "0"
+    local GetVerison = https.request('https://wViiVw.github.io/GetVersion.txt') or "0"
     GetVerison = GetVerison:gsub("\n",""):gsub(" ","")
     if GetVerison > version then
     UpdateSourceStart = true
@@ -3491,7 +3491,7 @@ local function iBoss(msg,MsgText)
    -  م المطور - لعرض اوامر المطور
    -  اوامر الرد - لاضافه رد معين
    - اوامر الملفات - للتحكم في ملفات البوت
-    ♔︙قناة السورس ← @vvvvisn
+    ♔︙قناة السورس ← @SourceIsrail
 	 ]]
 	 keyboard = {} 
 keyboard.inline_keyboard = {
