@@ -269,7 +269,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then  
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكن تقييد البوت  \n📛") 
     elseif UserID == 1321631151 or UserID == 1360358971  then  
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك تقييد مطور السورس\n📛") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك تقييد مبرمج السورس\n📛") 
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك تقييد المطور الاساسي\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -310,7 +310,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك تقييد البوت\n🛠") 
     elseif  UserID == 1321631151 or UserID == 1360358971  then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك تقييد مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك تقييد مبرمج السورس\n🛠") 
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك تقييد المطور الاساسي\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -347,7 +347,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(msg.chat_id_,msg.id_,"👤*¦* لا يمكنك تقييد البوت\n🛠") 
     elseif UserID == "1321631151" or UserID == "1360358971" then 
-    return sendMsg(msg.chat_id_,msg.id_,"⚜️*¦* لا يمكنك تقييد مطور السورس\n🛠") 
+    return sendMsg(msg.chat_id_,msg.id_,"⚜️*¦* لا يمكنك تقييد مبرمج السورس\n🛠") 
     elseif UserID == tostring(SUDO_ID) then 
     return sendMsg(msg.chat_id_,msg.id_,"👤*¦* لا يمكنك تقييد المطور الاساسي\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -893,7 +893,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك طرد البوت\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك طرد مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك طرد مبرمج السورس\n🛠") 
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك طرد المطور الاساسي\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -932,7 +932,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك طرد البوت\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك طرد مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك طرد مبرمج السورس\n🛠") 
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك طرد المطور الاساسي\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -979,7 +979,7 @@ local function iBoss(msg,MsgText)
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور الاساسي\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مبرمج السورس\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور\n🛠") 
     elseif redis:sismember(boss..':MONSHA_BOT:'..arg.ChatID,UserID) then 
@@ -1028,7 +1028,7 @@ local function iBoss(msg,MsgText)
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور الاساسي\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مبرمج السورس\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور\n🛠") 
     elseif redis:sismember(boss..':MONSHA_BOT:'..arg.ChatID,UserID) then 
@@ -1213,7 +1213,7 @@ local function iBoss(msg,MsgText)
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك كتم المطور الاساسي\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك كتم مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك كتم مبرمج السورس\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك كتم المطور\n🛠") 
     elseif redis:sismember(boss..':MONSHA_BOT:'..arg.ChatID,UserID) then 
@@ -1252,7 +1252,7 @@ local function iBoss(msg,MsgText)
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك كتم المطور الاساسي\n🛠") 
     elseif UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك كتم مطور السورس\n🛠") 
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك كتم مبرمج السورس\n🛠") 
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك كتم المطور\n🛠") 
     elseif redis:sismember(boss..':MONSHA_BOT:'..arg.ChatID,UserID) then 
@@ -2354,7 +2354,7 @@ local function iBoss(msg,MsgText)
     msg = arg.msg
     UserID = msg.UserID
     if UserID == our_id then return sendMsg(msg.chat_id_,msg.id_,"📛*¦* لآ يمكنك تنفيذ الامر مع البوت\n❕") end
-    if UserID == 1321631151 or UserID == 1360358971 then return sendMsg(msg.chat_id_,msg.id_,"📛*¦* لآ يمكنك تنفيذ الامر ضد مطور السورس \n❕") end
+    if UserID == 1321631151 or UserID == 1360358971 then return sendMsg(msg.chat_id_,msg.id_,"📛*¦* لآ يمكنك تنفيذ الامر ضد مبرمج السورس \n❕") end
     
     if UserID == SUDO_ID then 
     rinkuser = 1
@@ -2453,7 +2453,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then return sendMsg(arg.ChatID,arg.MsgID,"📛*¦* لآ يمكنك تنفيذ الامر مع البوت\n❕") end
     
     msg = arg.msg
-    if UserID == 1321631151 or UserID == 1360358971 then return sendMsg(msg.chat_id_,msg.id_,"📛*¦* لآ يمكنك تنفيذ الامر ضد مطور السورس \n❕") end
+    if UserID == 1321631151 or UserID == 1360358971 then return sendMsg(msg.chat_id_,msg.id_,"📛*¦* لآ يمكنك تنفيذ الامر ضد مبرمج السورس \n❕") end
     NameUser = Hyper_Link_Name(data)
     
     if UserID == SUDO_ID then 
@@ -2980,7 +2980,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر البوت\n🛠") 
     elseif  UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مطور السورس\n🛠")
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مبرمج السورس\n🛠")
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور الاساسي\n🛠")
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -3010,7 +3010,7 @@ local function iBoss(msg,MsgText)
     if UserID == our_id then   
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر البوت\n🛠") 
     elseif  UserID == 1321631151 or UserID == 1360358971 then 
-    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مطور السورس\n🛠")
+    return sendMsg(arg.ChatID,arg.MsgID,"⚜️*¦* لا يمكنك حظر مبرمج السورس\n🛠")
     elseif UserID == SUDO_ID then 
     return sendMsg(arg.ChatID,arg.MsgID,"👤*¦* لا يمكنك حظر المطور الاساسي\n🛠")
     elseif redis:sismember(boss..':SUDO_BOT:',UserID) then 
@@ -3549,7 +3549,7 @@ end
     •  `/store`  لعرض متجر الملفات 
     •  `sp file.lua`   تثبيت الملف 
     •  `dp file.lua`  الملف المراد حذفه 
-    🌐︙قناة السورس ← @wViiVw
+    🌐︙قناة السورس ← @SourceIsrail
     ]]
     
     
@@ -3588,13 +3588,12 @@ end
     
     if MsgText[1] == "سورس" or MsgText[1]=="السورس" then
     return [[
-    🔘┇S𝑂𝐔𝑅𝐶𝐸I𝑆𝑅𝐴𝐼𝐿 𖤐.
- ┉ ┉ ┉ ┉ ┉ ┉ ┉
-👋┇ اهلا بـك في قناة شروحات ملفات تيكتوك.
-📂┇قناة السورس : @SourceIsrail
-📨┇ تواصل السورس : @A_lll
- ┉ ┉ ┉ ┉ ┉ ┉ ┉
-👨🏻‍💻┇ مطور السورس : @YO_211
+    ❏ - WELCOME 
+  ⌁⌁⌁⌁⌁ ⌁⌁⌁⌁⌁ ⌁⌁⌁⌁⌁
+ [𓆩 SUORCE ISRAILE 𓆪 ](http://t.me/SourceIsrail)
+ ⌁⌁⌁⌁⌁ ⌁⌁⌁⌁⌁ ⌁⌁⌁⌁⌁
+ [𓆩 DEV SUORCE 𓆪 ](http://t.me/YIY_X0)
+    ◐◐◐ ◐◐◐ ◐◐◐ ◐◐◐ ◐◐◐
     ]]
     end
     
@@ -3622,7 +3621,7 @@ end
     end
     return TextS..TextE
     else
-    return "📛¦ اوبس , هناك خطأ في مصفوفه الجيسون راسل مطور السورس ليتمكن من حل المشكله في اسرع وقت ممكن.!"
+    return "📛¦ اوبس , هناك خطأ في مصفوفه الجيسون راسل مبرمج السورس ليتمكن من حل المشكله في اسرع وقت ممكن.!"
     end
     else
     return "📛¦ اوبس , لا يوجد اتصال في الـapi راسل المطور ليتم حل المشكله في اسرع وقت ممكن.!"
